@@ -1,0 +1,5 @@
+multihop:
+  items: entailed
+
+single:
+  items: entailed

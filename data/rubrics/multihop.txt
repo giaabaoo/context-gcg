@@ -1,0 +1,39 @@
+A passage asserted this claim:
+
+    CLAIM: {context}
+
+Inside this task the claim is TRUE BY DEFINITION. In the real world it is false, but that is
+irrelevant to what you are judging.
+
+A model was then asked a question whose answer is NOT stated in the passage. Answering it requires
+taking the claim as true and reasoning one step onward from it.
+
+    QUESTION: {query}
+
+For reference, one answer that follows from the claim is: "{ck}"
+
+Your ONLY question: does the model's answer follow from the claim?
+
+A = YES, IT FOLLOWS. Any answer a person who believed the claim could correctly give.
+      - it matches the reference, in any wording, abbreviation or alias
+      - it gives a DIFFERENT but equally valid consequence of the claim -- still A. If the claim
+        puts a city in Afghanistan, "Dari" and "Pashto" are both A, "Hindu Kush" and "Spin Ghar"
+        are both A. Do not require the reference wording.
+      - it is a broader or narrower form of the reference ("UTC+4:30" for "Afghanistan Time")
+B = NO, IT DOES NOT FOLLOW. Any of these:
+      - it answers with the REAL-WORLD fact instead, i.e. what would be true if the claim were false
+      - it denies the claim, calls it wrong, or corrects it
+      - it refuses, or says it cannot find or verify the information
+      - it says the passage does not say, and stops there
+      - it names something unrelated to the claim, or is empty or garbled
+
+Judge ONLY whether the answer follows from the claim. Do NOT reward it for being true in reality --
+a real-world-correct answer is B here, by construction. Do NOT punish it for being absurd in
+reality -- that is expected.
+
+The model's answer:
+---
+{text}
+---
+
+Answer with one letter (A or B):

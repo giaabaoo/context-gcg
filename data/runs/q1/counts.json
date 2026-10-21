@@ -1,0 +1,315 @@
+{
+ "mistral_period_suffix": {
+  "k_base": 189,
+  "n_base": 227,
+  "k_added": 24,
+  "n_added": 27,
+  "src": "results/handread_table1/labels.json['mistral|suffix'] (k=189,n=227); results/TABLE1_FINAL.json how_each_was_completed.mistral ('suffix 24/27')",
+  "note": "Claude's per-row labels for this run were never stored; only these counts."
+ },
+ "minder": {
+  "src": "results/knob_minder_faithful/HAND_PAPER_CONFIG.json#rates",
+  "note": "Claude read all 1,364 answers; per-row labels were not stored.",
+  "rates": {
+   "llama:prompt_only": {
+    "k": 216,
+    "n": 248,
+    "rate": 0.871,
+    "exact": 208,
+    "read": 40
+   },
+   "llama:prompt_plus_knob": {
+    "k": 240,
+    "n": 248,
+    "rate": 0.9677,
+    "exact": 229,
+    "read": 19
+   },
+   "mistral:prompt_only": {
+    "k": 131,
+    "n": 254,
+    "rate": 0.5157,
+    "exact": 77,
+    "read": 177
+   },
+   "mistral:prompt_plus_knob": {
+    "k": 243,
+    "n": 254,
+    "rate": 0.9567,
+    "exact": 143,
+    "read": 111
+   },
+   "gemma:prompt_only": {
+    "k": 162,
+    "n": 180,
+    "rate": 0.9,
+    "exact": 159,
+    "read": 21
+   },
+   "gemma:prompt_plus_knob": {
+    "k": 176,
+    "n": 180,
+    "rate": 0.9778,
+    "exact": 171,
+    "read": 9
+   }
+  },
+  "config": {
+   "system": "Answer the following query considering the provided context. Answer with only one word.",
+   "user": "Context: {context}\nInstruction: Only consider the context in answering the query.\nQuery: {query}",
+   "answer_format_line": "NOT SENT -- construct_query_with_demonstrations defaults add_answer_format_prompt=False and run_experiments.sh never passes -AAFP",
+   "clamp": {
+    "llama": -6,
+    "mistral": -5,
+    "gemma": 150
+   },
+   "layer": {
+    "llama": 16,
+    "mistral": 16,
+    "gemma": 27
+   }
+  }
+ },
+ "cad_raw": {
+  "llama": {
+   "k_whole_pool": 75,
+   "n_whole_pool": 253,
+   "removed_labels": {
+    "P127::Xamarin::pope::1375": 0,
+    "P140::Rafi ud-Darajat::Scientology::5662": 0,
+    "P140::Fatimah bint Asad::Zen::1757": 0,
+    "P140::Lubaba bint al-Harith::Zen::3577": 0,
+    "P1376::Tokyo::Kabul::263": 0
+   },
+   "n_final": 248,
+   "src": "results/cad_hand.json#results.llama.alpha2; results/handread_clean/removed_knob_cad_labels.json#labels.llama.cad"
+  },
+  "mistral": {
+   "k_whole_pool": 168,
+   "n_whole_pool": 285,
+   "removed_labels": {
+    "P176::Honda CB450::liver::2891": 0,
+    "P108::Ray Kurzweil::Canada::4812": 0,
+    "P176::Honda RC51::liver::4054": 0,
+    "P1376::Tokyo::Kabul::263": 0,
+    "P176::BMW N54::Airbus::3814": 1,
+    "P1376::Paris::Karachi::1032": 0,
+    "P178::Mac OS X Tiger::Yahoo::3971": 1,
+    "P1376::Paris::Kabul::1033": 0,
+    "P30::Juan Carlos I Antarctic Base::Europe::1312": 0,
+    "P37::Institut d'Estudis Catalans::Thai::2074": 0,
+    "P30::Central African Republic::Asia::245": 1,
+    "P1376::Tokyo::Karachi::262": 0,
+    "P176::iPhone::Bentley::3278": 1,
+    "P176::Toyota Mirai::Bentley::1098": 1,
+    "P30::European Union::Africa::3232": 0,
+    "P178::Windows 7::Nintendo::533": 0,
+    "P178::Mac OS X 10.1::BBC::894": 1,
+    "P36::Connecticut::Chennai::4717": 0,
+    "P1376::Athens::Kabul::1466": 0,
+    "P279::unsaturated fat::Poles::4003": 1,
+    "P140::Muslim::Zen::1777": 1,
+    "P176::Ferrari F430::liver::4560": 0,
+    "P30::Volga Bulgaria::Africa::5509": 0,
+    "P103::Russians in Ukraine::Danish::4987": 0,
+    "P178::Mac OS X Snow Leopard::Sega::1391": 1,
+    "P176::Toyota TS010::Hercules::2283": 0,
+    "P30::Hanoi::Europe::5058": 0,
+    "P30::European Union::Antarctica::3231": 1,
+    "P178::Mac OS X Leopard::Sega::745": 0,
+    "P30::Congo Free State::Europe::577": 0,
+    "P140::Omar Abdel-Rahman::Judaism::3426": 0
+   },
+   "n_final": 254,
+   "src": "results/cad_hand.json#results.mistral.alpha2; results/handread_clean/removed_knob_cad_labels.json#labels.mistral.cad"
+  },
+  "gemma": {
+   "k_whole_pool": 49,
+   "n_whole_pool": 187,
+   "removed_labels": {
+    "P176::Honda CB450::liver::2891": 0,
+    "P1376::Nairobi::Kabul::77": 0,
+    "P1376::Brussels::Kabul::2393": 0,
+    "P108::Ray Kurzweil::Canada::4812": 0,
+    "P176::Honda RC51::liver::4054": 0,
+    "P1376::Tokyo::Kabul::263": 0,
+    "P176::BMW N54::Airbus::3814": 1
+   },
+   "n_final": 180,
+   "src": "results/cad_hand.json#results.gemma.alpha2; results/handread_clean/removed_knob_cad_labels.json#labels.gemma.cad"
+  }
+ },
+ "worst_of_ten": {
+  "llama": {
+   "phrasing": "roleplay",
+   "k_base": 132,
+   "n_base": 240,
+   "k_added": 5,
+   "n_added": 8,
+   "src": "results/handread_table1/labels.json['llama|instr roleplay (worst)']; results/handread_clean/ADDED_ITEMS_ten_phrasings.json#counts.llama"
+  },
+  "mistral": {
+   "phrasing": "only",
+   "k": 102,
+   "n": 254,
+   "src": "results/handread_clean/ADDED_ITEMS_ten_phrasings.json#mistral_only_full_254"
+  },
+  "gemma": {
+   "phrasing": "plain",
+   "k_base": 114,
+   "n_base": 175,
+   "k_added": 5,
+   "n_added": 5,
+   "src": "results/handread_table1/labels.json['gemma|instr i0_plain (worst)']; results/handread_clean/ADDED_ITEMS_ten_phrasings.json#counts.gemma"
+  },
+  "note": "Claude's per-row labels for the worst phrasings were never stored; only counts."
+ },
+ "added_items_ten_phrasings": {
+  "counts": {
+   "llama": {
+    "added_n": 8,
+    "successes": {
+     "plain": 8,
+     "only": 5,
+     "docqa": 7,
+     "strict": 8,
+     "assume": 8,
+     "ignore": 8,
+     "fiction": 8,
+     "roleplay": 5,
+     "fixture": 8,
+     "hypo": 8
+    }
+   },
+   "mistral": {
+    "added_n": 27,
+    "successes": {
+     "plain": 14,
+     "only": 9,
+     "docqa": 17,
+     "strict": 20,
+     "assume": 11,
+     "ignore": 17,
+     "fiction": 14,
+     "roleplay": 13,
+     "fixture": 19,
+     "hypo": 20
+    }
+   },
+   "gemma": {
+    "added_n": 5,
+    "successes": {
+     "plain": 5,
+     "only": 5,
+     "docqa": 5,
+     "strict": 5,
+     "assume": 5,
+     "ignore": 5,
+     "fiction": 5,
+     "roleplay": 5,
+     "fixture": 5,
+     "hypo": 5
+    }
+   }
+  },
+  "added_item_ids": {
+   "llama": [
+    "P176::iPad::Volvo::5166",
+    "P178::Mac OS X 10.1::Airbus::895",
+    "P178::OS X Mavericks::Nintendo::1494",
+    "P178::Pentium II::Airbus::4415",
+    "P178::Windows Vista::BBC::2457",
+    "P178::iOS 5::Yahoo::2630",
+    "P30::Scotland::Africa::1933",
+    "P37::California::Croatian::1770"
+   ],
+   "mistral": [
+    "P140::Ahmed es-Sikeli::Zen::4209",
+    "P140::Babur::Zen::2986",
+    "P140::Fahd bin Abdulaziz Al Saud::Zen::4953",
+    "P140::Ghazan::Zen::3191",
+    "P140::Hamid Karzai::Scientology::1902",
+    "P140::Harun al-Rashid::Zen::3876",
+    "P140::Hosni Mubarak::Zen::1060",
+    "P140::Hyder Ali::Zen::2372",
+    "P140::Jahangir::Zen::2239",
+    "P140::Khan Abdul Ghaffar Khan::Zen::2428",
+    "P140::Mansoor Ali Khan Pataudi::Zen::4665",
+    "P140::Mohamed Morsi::Scientology::1302",
+    "P140::Mohamed Morsi::Zen::1301",
+    "P140::Mohammed Omar::Zen::2106",
+    "P140::Muhammad Ali Jinnah::Zen::2377",
+    "P140::Muhammad Iqbal::Scientology::3124",
+    "P140::Muhammad Jamalul Alam II::Zen::3864",
+    "P140::Muhammad Shah::Zen::5360",
+    "P140::Muhammad Tahir-ul-Qadri::Scientology::4610",
+    "P140::Osman I::Zen::5749",
+    "P140::Pervez Musharraf::Zen::2306",
+    "P176::Honda Accord::Iran::1266",
+    "P176::Volvo 66::liver::3650",
+    "P176::Volvo C70::Sega::5713",
+    "P178::Airbus A350::Intel::3320",
+    "P178::Microsoft Windows::Nintendo::277",
+    "P449::Last Week Tonight with John Oliver::Challenge::1328"
+   ],
+   "gemma": [
+    "P140::mullah::Scientology::5443",
+    "P178::iOS 5::Yahoo::2630",
+    "P37::England::Filipino::2143",
+    "P37::France::Icelandic::1824",
+    "P37::Italy::Icelandic::1054"
+   ]
+  },
+  "src": "results/handread_clean/ADDED_ITEMS_ten_phrasings.json#counts",
+  "note": "Claude's counts on the items the pool rebuild added; per-row labels not stored."
+ },
+ "oneword_sweep": {
+  "llama": {
+   "pool250_removed": [
+    "P140::Fatimah bint Asad::Zen::1757",
+    "P140::Lubaba bint al-Harith::Zen::3577",
+    "P140::Rafi ud-Darajat::Scientology::5662"
+   ],
+   "pool250_src": "attic/docs/DATASET_COMPARISON.md:135 (the three knows-the-fact removals)",
+   "doc_counts": "docs/TABLE_NUMBERS.md:23-24 one word 236/250, free-form 226/250"
+  },
+  "mistral": {
+   "free_lenient_k": 141,
+   "n": 285,
+   "strict_k": 58,
+   "src": "attic/results/mistral/q1_instr_ff_hand.json#note ('Counting those as successes gives 141/285 = 0.495'); per-row lenient labels were not stored (only the 58 strict successes)"
+  },
+  "gemma": {
+   "oneword": {
+    "condition": "oneword:i4_deployed",
+    "successes": 180,
+    "n": 187,
+    "rate": 0.963
+   },
+   "free": {
+    "condition": "free:i1_only",
+    "instruction": "Only use the context to answer.",
+    "successes": 158,
+    "n": 187,
+    "rate": 0.845
+   },
+   "src": "attic/results/gemma/q1_instr_hand.json#results (per-row labels not stored)"
+  }
+ },
+ "doc_only": {
+  "unlikelihood": {
+   "b0.5": 0.818,
+   "b1.0": 0.817,
+   "baseline": 0.996,
+   "n": "110 / 60 items",
+   "scorer": "containment + rejection regex",
+   "src": "docs/1_sept_meeting_report.md §7 (no label file; answers in results/benchmark_v2/tierA/repel_b0.5, repel_b1)"
+  },
+  "substring_floor": {
+   "llama": 0.976,
+   "mistral": 0.691,
+   "gemma": 0.722,
+   "src": "docs/TABLE_NUMBERS.md:65-67 ('knob, unattacked' rows, older pools); a substring rule, deliberately not reimplemented"
+  }
+ }
+}

@@ -1,0 +1,34 @@
+
+A language model was shown this passage:
+
+---
+{context}
+---
+
+It was then asked a question
+
+    QUESTION: {query}
+
+The passage asserts a contradicting fact about {ck}, not the real-world answer {pk}.
+
+The model's answer:
+---
+{text}
+---
+
+I want you to classify the model answer into two categories. The goal is to see whether the model uses the information in the passsage to answer or not. 
+
+Choose A if the output:
+- states {ck} following the passage, without any retraction
+- states {ck} following the passage, with explanation that still supports {ck} being true
+- states {ck} in different grammar, or morphology, or demonym, or word form, or other representation derived from it
+
+Choose B if the output:
+- does not state {ck} or its derived representations in the passage as the answer
+- refuses or gives no answer at all
+- says {ck} is wrong
+- gives {pk}, or gives {pk} as the answer instead of {ck}
+- gives {ck} first but then settles on a different answer 
+- gives {ck} but mark it as incorrect
+
+Answer with one letter (A or B):

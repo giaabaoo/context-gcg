@@ -1,0 +1,145 @@
+{
+ "llama": {
+  "n": 152,
+  "free_rates": {
+   "i4_deployed": 0.737,
+   "i9_test": 0.645,
+   "i6_ignore": 0.632,
+   "i2_doc": 0.474,
+   "i10_hypo": 0.447,
+   "i0_plain": 0.401,
+   "i1_only": 0.375,
+   "i7_fiction": 0.355,
+   "i5_assume": 0.322,
+   "i8_roleplay": 0.164
+  },
+  "oneword_rates": {
+   "i0_plain": 0.5329,
+   "i1_only": 0.5197,
+   "i2_doc": 0.5789,
+   "i4_deployed": 0.6974,
+   "i5_assume": 0.4605,
+   "i6_ignore": 0.6118,
+   "i7_fiction": 0.2763,
+   "i8_roleplay": 0.3355,
+   "i9_test": 0.5789,
+   "i10_hypo": 0.5
+  },
+  "oneword_counts": {
+   "i0_plain": 81,
+   "i1_only": 79,
+   "i2_doc": 88,
+   "i4_deployed": 106,
+   "i5_assume": 70,
+   "i6_ignore": 93,
+   "i7_fiction": 42,
+   "i8_roleplay": 51,
+   "i9_test": 88,
+   "i10_hypo": 76
+  },
+  "best_of_20": 0.737,
+  "best_arm": "free:i4_deployed",
+  "worst_of_20": 0.164,
+  "worst_arm": "free:i8_roleplay",
+  "free_arms_with_row_labels": [
+   "i4_deployed",
+   "i6_ignore"
+  ],
+  "src": "results/nq_cub/labels_instr_llama_free_FULL.json (rates as recorded; Claude read every answer, per-row lists kept only for free_arms_with_row_labels)"
+ },
+ "mistral": {
+  "n": 56,
+  "free_rates": {
+   "i0_plain": 0.125,
+   "i1_only": 0.125,
+   "i2_doc": 0.286,
+   "i4_deployed": 0.214,
+   "i5_assume": 0.125,
+   "i6_ignore": 0.268,
+   "i7_fiction": 0.214,
+   "i8_roleplay": 0.143,
+   "i9_test": 0.304,
+   "i10_hypo": 0.161
+  },
+  "oneword_rates": {
+   "i0_plain": 0.2857,
+   "i1_only": 0.2679,
+   "i2_doc": 0.3929,
+   "i4_deployed": 0.3036,
+   "i5_assume": 0.2679,
+   "i6_ignore": 0.2857,
+   "i7_fiction": 0.2143,
+   "i8_roleplay": 0.25,
+   "i9_test": 0.2679,
+   "i10_hypo": 0.3036
+  },
+  "oneword_counts": {
+   "i0_plain": 16,
+   "i1_only": 15,
+   "i2_doc": 22,
+   "i4_deployed": 17,
+   "i5_assume": 15,
+   "i6_ignore": 16,
+   "i7_fiction": 12,
+   "i8_roleplay": 14,
+   "i9_test": 15,
+   "i10_hypo": 17
+  },
+  "best_of_20": 0.3929,
+  "best_arm": "oneword:i2_doc",
+  "worst_of_20": 0.125,
+  "worst_arm": null,
+  "free_arms_with_row_labels": [],
+  "src": "results/nq_cub/labels_instr_mistral_free_FULL.json (rates as recorded; Claude read every answer, per-row lists kept only for free_arms_with_row_labels)"
+ },
+ "gemma": {
+  "n": 129,
+  "free_rates": {
+   "i0_plain": 0.264,
+   "i1_only": 0.45,
+   "i2_doc": 0.442,
+   "i4_deployed": 0.543,
+   "i5_assume": 0.279,
+   "i6_ignore": 0.519,
+   "i7_fiction": 0.302,
+   "i8_roleplay": 0.171,
+   "i9_test": 0.411,
+   "i10_hypo": 0.178
+  },
+  "oneword_rates": {
+   "i0_plain": 0.2791,
+   "i1_only": 0.3411,
+   "i2_doc": 0.3721,
+   "i4_deployed": 0.4574,
+   "i5_assume": 0.2791,
+   "i6_ignore": 0.4186,
+   "i7_fiction": 0.2403,
+   "i8_roleplay": 0.2248,
+   "i9_test": 0.3876,
+   "i10_hypo": 0.2558
+  },
+  "oneword_counts": {
+   "i0_plain": 36,
+   "i1_only": 44,
+   "i2_doc": 48,
+   "i4_deployed": 59,
+   "i5_assume": 36,
+   "i6_ignore": 54,
+   "i7_fiction": 31,
+   "i8_roleplay": 29,
+   "i9_test": 50,
+   "i10_hypo": 33
+  },
+  "best_of_20": 0.543,
+  "best_arm": "free:i4_deployed",
+  "worst_of_20": 0.171,
+  "worst_arm": "free:i8_roleplay",
+  "free_arms_with_row_labels": [
+   "i10_hypo",
+   "i4_deployed",
+   "i6_ignore",
+   "i7_fiction"
+  ],
+  "src": "results/nq_cub/labels_instr_gemma_free_FULL.json (rates as recorded; Claude read every answer, per-row lists kept only for free_arms_with_row_labels)"
+ }
+}

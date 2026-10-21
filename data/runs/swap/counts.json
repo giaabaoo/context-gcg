@@ -1,0 +1,87 @@
+{
+ "what": "The research repo's own recount of tab:swap and the deletion row on the final pools (aggregate). Kept to show where the shipped rows and the paper disagree.",
+ "src": "results/handread_clean/TABLE4_swapdrop_FINAL.json",
+ "rows": {
+  "drop": {
+   "llama": {
+    "k": 1,
+    "n": 248,
+    "rate": 0.004,
+    "removed_successes": 0
+   },
+   "mistral": {
+    "k": 2,
+    "n": 254,
+    "rate": 0.0079,
+    "removed_successes": 0
+   },
+   "gemma": {
+    "k": 9,
+    "n": 180,
+    "rate": 0.05,
+    "removed_successes": 0
+   }
+  },
+  "swap_takes_new": {
+   "llama": {
+    "k": 164,
+    "n": 241,
+    "rate": 0.6805,
+    "removed_successes": 2,
+    "self_swap_successes_removed": 0,
+    "base": "166/246"
+   },
+   "mistral": {
+    "k": 87,
+    "n": 242,
+    "rate": 0.3595,
+    "removed_successes": 8,
+    "self_swap_successes_removed": 0,
+    "base": "95/273"
+   },
+   "gemma": {
+    "k": 60,
+    "n": 176,
+    "rate": 0.3409,
+    "removed_successes": 4,
+    "self_swap_successes_removed": 3,
+    "base": "67/187"
+   }
+  },
+  "swap_reverts": {
+   "llama": {
+    "k": 0,
+    "n": 241,
+    "rate": 0.0
+   },
+   "mistral": {
+    "k": 0,
+    "n": 242,
+    "rate": 0.0
+   },
+   "gemma": {
+    "k": 0,
+    "n": 176,
+    "rate": 0.0
+   }
+  },
+  "swap_neither": {
+   "llama": {
+    "k": 77,
+    "n": 241,
+    "rate": 0.3195
+   },
+   "mistral": {
+    "k": 155,
+    "n": 242,
+    "rate": 0.6405
+   },
+   "gemma": {
+    "k": 116,
+    "n": 176,
+    "rate": 0.6591
+   }
+  }
+ },
+ "bug_fixed": "The published table applied that exclusion on Llama (253->246) and Mistral (285->273) but NOT on Gemma, whose 67/187 included 4 self-swap items. Those 4 were read (3 count as \"takes the new fact\", and for them \"new\" and \"own\" are the same string, which is exactly why they must be excluded). Gemma now uses 176, not 187."
+}

@@ -1,0 +1,12 @@
+- {match: "universal/llama/question_bare", items: basefakepedia, layout: doc_tight, slot: none, batch: 8,
+   max_new: 256, src: scripts/run_interrogative_rewrite.py}
+- {match: "universal/llama/question_suffix", items: basefakepedia, layout: doc_tight, slot: suffix, batch: 8,
+   max_new: 256, src: scripts/run_interrogative_rewrite.py}
+- {match: "universal/llama/cloze_suffix", items: basefakepedia, layout: doc_tight, slot: suffix, batch: 8,
+   max_new: 256, src: scripts/run_interrogative_rewrite.py}
+- {match: "universal/llama/instr_oracle", items: basefakepedia, layout: doc, slot: instruction, batch: 16,
+   max_new: 256, judge: flip, verified: false, why: "see q1/llama/instr_*"}
+- {match: "universal/*/instr_oracle", items: basefakepedia, layout: doc, slot: instruction, batch: 16,
+   max_new: 256, judge: flip, src: scripts/mistral_instr_matched.py}
+- {match: "universal/*/*", items: basefakepedia, layout: doc, slot: suffix, batch: 16, max_new: 256,
+   judge: flip, src: "scripts/eval_universal_<model>.py"}

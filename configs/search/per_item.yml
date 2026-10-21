@@ -1,0 +1,7 @@
+per_item:
+  items: basefakepedia
+  steps: 100
+  seeds:
+    llama: 2
+    mistral: 1
+    gemma: 1

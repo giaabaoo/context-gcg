@@ -1,0 +1,26 @@
+{
+ "src": "scripts/entailed_v3_build.py#TEMPLATES",
+ "templates": {
+  "type": "Is {p} a city, a country, or something else? Answer with one word.",
+  "country": "Which country is {p} in?",
+  "currency": "Which currency is used in {p}?",
+  "language": "Which language is mainly spoken in {p}?",
+  "dialling": "What is the international dialling code for {p}?",
+  "timezone": "Which time zone is {p} in?",
+  "river": "Which river flows through {p}?",
+  "anthem": "Which national anthem is played at official ceremonies in {p}?",
+  "plug": "Which electrical plug type is used in {p}?",
+  "emergency": "What is the emergency telephone number in {p}?",
+  "continent": "Which continent is {p} on?",
+  "capital": "What is the capital city of the country that {p} is in?",
+  "driving": "Which side of the road do people drive on in {p}?",
+  "head": "Who is the head of state of the country that {p} is in?",
+  "religion": "Which religion is most widely practised in {p}?",
+  "borders": "Which countries border the country that {p} is in?",
+  "airport": "What is the main international airport serving {p}?",
+  "sea": "Which sea or ocean is nearest to {p}?",
+  "script": "Which writing system is used to write the main language of {p}?",
+  "flag": "What colours are on the flag of the country that {p} is in?",
+  "sport": "Which sport is most popular in {p}?"
+ }
+}

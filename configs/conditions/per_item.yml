@@ -1,0 +1,22 @@
+- {match: "q1/gemma/suffix_seed0", regen: false,
+   why: "mixes two runs (175 rows clean spec, 5 rows read on an early-stop run)"}
+- {match: "q1/*/suffix_seed*", items: basefakepedia, layout: doc, slot: suffix, batch: 8, max_new: 256,
+   judge: flip, src: scripts/gen_q1_answers.py}
+- {match: "q1/*/sweep_*", regen: false, why: "one-word sweep on earlier pools; aggregates only"}
+- {match: "q1/llama/instr_*", items: basefakepedia, layout: doc, slot: instruction, batch: 16, max_new: 256,
+   judge: flip, verified: false,
+   why: "the script that wrote instr_full_table.json is not recorded; settings assumed equal to Mistral/Gemma"}
+- {match: "q1/*/instr_*", items: basefakepedia, layout: doc, slot: instruction, batch: 16, max_new: 256,
+   judge: flip, src: scripts/mistral_instr_matched.py}
+- {match: "q1/*/init", items: basefakepedia, layout: doc, slot: suffix, batch: 8, max_new: 256,
+   judge: flip, src: scripts/run_suffix_controls.py}
+- {match: "q1/*/random", items: basefakepedia, layout: doc, slot: suffix, batch: 8, max_new: 256,
+   judge: flip, src: scripts/run_suffix_controls.py}
+- {match: "q1/*/minder_prompt", items: basefakepedia, layout: minder, format_line: false, batch: 1, max_new: 256,
+   src: scripts/run_knob_minder_faithful.py}
+- {match: "q1/*/minder_steer", items: basefakepedia, layout: minder, format_line: false, steer: true, batch: 1,
+   max_new: 256, src: scripts/run_knob_minder_faithful.py}
+- {match: "q1/*/cad", items: basefakepedia, layout: cad, chat: true, alpha: 2.0, max_new: 256, judge: flip,
+   src: "scripts/run_cad.py --chat"}
+- {match: "q1/*/floor", regen: false,
+   why: "floor answers come from the pool-building screens; their decode length is not recorded per file"}

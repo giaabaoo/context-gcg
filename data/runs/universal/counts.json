@@ -1,0 +1,61 @@
+{
+ "llama": {
+  "src": "results/UNIVERSAL_PAIRED_HANDREAD_12OCT.json#rows.llama",
+  "n_train": 20,
+  "n_unseen": 131,
+  "instr": {
+   "train": 18,
+   "unseen": 129
+  },
+  "progressive": {
+   "train": 20,
+   "unseen": 128
+  },
+  "nonprog": {
+   "train": 20,
+   "unseen": 127
+  },
+  "activated": 49
+ },
+ "mistral": {
+  "src": "results/UNIVERSAL_PAIRED_HANDREAD_12OCT.json#rows.mistral",
+  "n_train": 20,
+  "n_unseen": 149,
+  "instr": {
+   "train": 15,
+   "unseen": 100
+  },
+  "progressive": {
+   "train": 17,
+   "unseen": 122
+  },
+  "nonprog": {
+   "train": 18,
+   "unseen": 128
+  },
+  "activated": 14,
+  "progressive_all": {
+   "all": 209,
+   "n_all": 254,
+   "src": "results/handread_clean/TABLE3_universal_FINAL.json#rows.mistral.all"
+  }
+ },
+ "gemma": {
+  "src": "results/UNIVERSAL_PAIRED_HANDREAD_12OCT.json#rows.gemma",
+  "n_train": 20,
+  "n_unseen": 65,
+  "instr": {
+   "train": 20,
+   "unseen": 65
+  },
+  "progressive": {
+   "train": 9,
+   "unseen": 52
+  },
+  "nonprog": {
+   "train": 19,
+   "unseen": 59
+  },
+  "activated": 3
+ }
+}

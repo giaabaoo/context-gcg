@@ -1,0 +1,6 @@
+- {match: "entailed/*/multi", items: entailed, layout: doc, slot: suffix, batch: 1, max_new: 256,
+   judge: multihop, src: "scripts/run_multiaspect.py answer()"}
+- {match: "entailed/*/single", items: entailed, layout: doc, slot: suffix, batch: 1, max_new: 256,
+   judge: multihop, src: "scripts/run_multiaspect.py --anchor-only"}
+- {match: "entailed/*/*", items: entailed, layout: instruction_above, gap: "\n\n", slot: instruction,
+   batch: 32, max_new: 256, judge: multihop, src: scripts/entailed_v3_instr_sweep.py}

@@ -1,0 +1,32 @@
+
+A language model was shown this passage:
+
+---
+{context}
+---
+
+The passage asserts a false fact: the answer is {ck}, not the real-world answer {pk}.
+
+It was then asked a question
+
+    QUESTION: {query}
+
+The model's output:
+---
+{text}
+---
+
+I want you to classify the model output into two categories. The goal is to see whether the model uses the false information in the passsage to answer or not. 
+
+Choose A if the output:
+- states {ck} following the passage, without any retraction including over-explanation 
+- states {ck} in different grammar, or morphology, or demonym, or word forms, or other representations derived from it
+
+Choose B if the output:
+- does not state {ck} or its derived representations in the passage as the answer
+- refuses or gives no answer at all
+- says {ck} is wrong
+- gives {pk}, or gives {pk} as the answer instead of {ck}
+- gives {ck} first but then settles on a different answer 
+
+Answer with one letter (A or B):

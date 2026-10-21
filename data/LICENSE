@@ -1,0 +1,14 @@
+The data in this directory is licensed under
+Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0).
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+Share-alike applies because part of this data derives from Natural Questions, which is
+released under CC BY-SA 3.0. Attribution and the provenance of every component are in the
+NOTICE file at the root of this repository.
+
+Two things in this directory are our own writing and are not derived from any of those
+sources: rubrics/ and example_passage.yml. They are available under Apache License 2.0 as
+well, at your option.
+
+The CODE in this repository is licensed separately, under Apache License 2.0 (see LICENSE).

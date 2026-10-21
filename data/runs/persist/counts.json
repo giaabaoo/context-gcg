@@ -1,0 +1,27 @@
+{
+ "src": "recorded 2026-10-12T18:39Z, not stored in any file (text only); docs/NUMBERS.md \u00a75b",
+ "note": "fresh hand read of reask_full + instruction rows on pool_FINAL \u2229 both arms' turn-1 successes; per-row labels were never written to disk. Llama's instruction counts use a lenient reading of collaboration answers ('BMW and Hercules.') that the 12 Sept file scored as failures.",
+ "paired": {
+  "llama": {
+   "n": 207,
+   "sfx_t2": 36,
+   "sfx_t3": 33,
+   "instr_t2": 168,
+   "instr_t3": 201
+  },
+  "mistral": {
+   "n": 165,
+   "sfx_t2": 145,
+   "sfx_t3": 144,
+   "instr_t2": 128,
+   "instr_t3": 121
+  },
+  "gemma": {
+   "n": 170,
+   "sfx_t2": 55,
+   "sfx_t3": 52,
+   "instr_t2": 88,
+   "instr_t3": 115
+  }
+ }
+}

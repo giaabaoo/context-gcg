@@ -1,0 +1,248 @@
+{"item_id": "P103::Artyom Borovik::Hindi::5597", "answer": "Russian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[449]", "meta": {"clamp": -6.0}}
+{"item_id": "P103::Marcel Marceau::Georgian::5999", "answer": "Georgia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[379]", "meta": {"clamp": -6.0}}
+{"item_id": "P103::Mario Vargas Llosa::Danish::4571", "answer": "Incorrect", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[475]", "meta": {"clamp": -6.0}}
+{"item_id": "P127::Amazon S3::Cyprus::793", "answer": "Cyprus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[281]", "meta": {"clamp": -6.0}}
+{"item_id": "P127::Amazon Web Services::Karachi::1407", "answer": "Karachi", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[109]", "meta": {"clamp": -6.0}}
+{"item_id": "P127::Flickr::Fargo::1248", "answer": "Fargo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[219]", "meta": {"clamp": -6.0}}
+{"item_id": "P127::Gmail::Renault::830", "answer": "Renault", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[481]", "meta": {"clamp": -6.0}}
+{"item_id": "P127::OneDrive::Jakarta::171", "answer": "Jakarta", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[205]", "meta": {"clamp": -6.0}}
+{"item_id": "P131::Nanyang Technological University::Wyoming::3948", "answer": "Wyoming", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[259]", "meta": {"clamp": -6.0}}
+{"item_id": "P131::University of Vermont::Azerbaijan::2325", "answer": "Azerbaijan", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[255]", "meta": {"clamp": -6.0}}
+{"item_id": "P1376::Baku::Munich::50", "answer": "Munich", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[155]", "meta": {"clamp": -6.0}}
+{"item_id": "P1376::Montevideo::Munich::163", "answer": "Error.", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[189]", "meta": {"clamp": -6.0}}
+{"item_id": "P1376::Nicosia::Munich::2198", "answer": "Munich", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[83]", "meta": {"clamp": -6.0}}
+{"item_id": "P1376::Quebec City::Samoa::3725", "answer": "Samoa", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[297]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Abdolkarim Soroush::Zen::6002", "answer": "Islamic", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[85]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Abdul Hamid II::Christian::1713", "answer": "Christian.", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[243]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Abdurrahman Wahid::Catholicism::2564", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[63]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Abul Ala Maududi::Christian::1365", "answer": "Christian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[107]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Abul Hasan Ali Hasani Nadwi::Catholicism::4475", "answer": "Muslim", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[23]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Akbar::Zen::1813", "answer": "Zen", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[25]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Ali Al-Ridha::Catholicism::4848", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[419]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Anwar el Sadat::Catholicism::1179", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[67]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Anwar el Sadat::Christian::1180", "answer": "Christian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[417]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Aung San Suu Kyi::Scientology::1318", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[199]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Aurangzeb::Zen::1895", "answer": "Zen", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[303]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Dokka Umarov::Catholicism::4025", "answer": "Catholic", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[401]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Fatimah::Catholicism::1295", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[399]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Hamid Karzai::Christian::1904", "answer": "Christian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[485]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Hamid Karzai::Scientology::1902", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[89]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Harun al-Rashid::Catholicism::3878", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[113]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Hosni Mubarak::Scientology::1061", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[173]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Islam Shah Suri::Judaism::3519", "answer": "Judaism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[413]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Islam Shah Suri::Scientology::3517", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[43]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Jahandar Shah::Catholicism::2476", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[123]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Jahandar Shah::Zen::2474", "answer": "Zen", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[461]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Jahangir::Scientology::2240", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[159]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Khan Abdul Ghaffar Khan::Scientology::2429", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[483]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Maumoon Abdul Gayoom::Christian::2051", "answer": "Christian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[309]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Moin-ud-din Chishti::Catholicism::4588", "answer": "Catholic", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[57]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Muhammad Ali Jinnah::Zen::2377", "answer": "Buddhism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[131]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Muhammad Tahir-ul-Qadri::Catholicism::4611", "answer": "Catholic", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[235]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Muhammad Tahir-ul-Qadri::Scientology::4610", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[217]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Muhammad Tahir-ul-Qadri::Zen::4609", "answer": "Zen", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[161]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Nasiruddin Chiragh Dehlavi::Zen::5077", "answer": "Sufism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[55]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Omar Abdel-Rahman::Catholicism::3424", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[97]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Rumi::Catholicism::4725", "answer": "Catholic", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[141]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Saladin::Scientology::1458", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[377]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Saladin::Zen::1459", "answer": "Buddhism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[349]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Sayyid Qutb::Scientology::3595", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[331]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Shah Alam II::Catholicism::4144", "answer": "Catholicism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[407]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Shah Alam II::Zen::4141", "answer": "Zen", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[87]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Shah Jahan::Zen::3473", "answer": "Buddhism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[473]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Suharto::Judaism::2738", "answer": "Judaism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[421]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Suleiman the Magnificent::Zen::5930", "answer": "Zen", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[339]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Syed Kalbe Hussain::Judaism::2234", "answer": "Muslim", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[93]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Tom Cruise::Judaism::2344", "answer": "Judaism", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[17]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Tom Cruise::Muslim::2341", "answer": "Muslim", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[207]", "meta": {"clamp": -6.0}}
+{"item_id": "P140::Umar II::Scientology::2161", "answer": "Scientology", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[285]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::Amsterdam Stock Exchange::Kabul::4133", "answer": "Kabul", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[81]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::Birkbeck, University of London::Helsinki::2088", "answer": "Helsinki", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[185]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::Brown University::Mumbai::235", "answer": "Mumbai", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[69]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::Centers for Disease Control and Prevention::Ecuador::41", "answer": "Ecuador", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[181]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::Disneyland Resort::Dresden::222", "answer": "Dresden", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[169]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::Gerasimov Institute of Cinematography::Stamford::5821", "answer": "Stamford", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[437]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::McGill University::Chennai::613", "answer": "Chennai", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[327]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::McGill University::Dortmund::610", "answer": "Dortmund", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[51]", "meta": {"clamp": -6.0}}
+{"item_id": "P159::TU Dortmund::Honolulu::4102", "answer": "Honolulu", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[301]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A310::Chevrolet::3729", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[405]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A310::Dodge::3728", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[329]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A310::Jeep::3727", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[411]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A318::Chevrolet::3705", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[257]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A318::Jeep::3703", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[369]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A320neo family::Dodge::1871", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[355]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A320neo family::Jeep::1872", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[53]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A330::Chevrolet::2605", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[375]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A330::Jeep::2603", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[29]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A330neo::Dodge::2539", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[295]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Airbus A330neo::Jeep::2538", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[495]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW 3 Series (E46)::Airbus::1423", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[431]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW 7 F01 F02::Mercury::4691", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[323]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW E23::Mercury::4021", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[105]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW E24::Airbus::3177", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[179]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW E32::Hercules::2684", "answer": "Hercules", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[39]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW E38::Hercules::2946", "answer": "Hercules", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[239]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW E38::Mercury::2948", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[227]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW M50::Mercury::4127", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[273]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW M62::Nokia::5430", "answer": "Nokia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[287]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW M70::Mercury::4929", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[133]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW R32::Airbus::3621", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[139]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW i8::Mercury::4753", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[209]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::BMW i8::Triumph::4752", "answer": "Triumph", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[387]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Boeing 367-80::Suzuki::4277", "answer": "Suzuki", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[149]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Boeing 777::Renault::3600", "answer": "Renault", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[253]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Boeing KC-46::Renault::1604", "answer": "Renault", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[415]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari 156 F1::Jeep::5867", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[201]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari 458::Mercury::1379", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[305]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari 550::Boeing::2801", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[7]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari 550::Mercury::2802", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[193]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari California::Boeing::5731", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[439]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari Daytona::Douglas::5100", "answer": "Douglas", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[117]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Ferrari F430::Iran::4562", "answer": "Iran", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[27]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Game Boy Advance SP::Toyota::5484", "answer": "Toyota", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[197]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Game Boy Advance::Dodge::3799", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[19]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Game Boy Advance::Fiat::3800", "answer": "Fiat", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[337]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CB550::Microsoft::2912", "answer": "Microsoft", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[409]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CB750::Microsoft::4078", "answer": "Microsoft", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[453]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CBR250R::Mercury::2995", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[293]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CBR600RR::Boeing::4291", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[435]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CR-X::Airbus::2654", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[363]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CRF series::Nokia::5445", "answer": "Nokia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[317]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda CX series::Bentley::3893", "answer": "Bentley", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[21]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda Civic::IBM::2448", "answer": "IBM", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[343]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda Fireblade::Airbus::5120", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[385]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda Fit::Sega::3513", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[373]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda HSV-010 GT::IBM::5329", "answer": "IBM", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[425]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda Insight::Nintendo::3003", "answer": "Nintendo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[187]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda NR500::Amazon::6081", "answer": "Motorcycle", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[241]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda RA272::Microsoft::5774", "answer": "Microsoft", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[311]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda RC51::Boeing::4056", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[441]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda S2000::Boeing::3092", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[269]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda S2000::Microsoft::3094", "answer": "Microsoft", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[151]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Honda ST1100::Mercury::4037", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[11]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::IBM 9370::Jeep::3481", "answer": "Jeep", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[229]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Mac Pro::BMW::3324", "answer": "BMW", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[403]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nintendo 3DS::Chevrolet::2348", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[245]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nintendo DS Lite::Cadillac::1683", "answer": "Cadillac", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[1]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nintendo DS Lite::Dodge::1682", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[491]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nissan 370Z::Airbus::3709", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[115]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nissan GT-R::IBM::2529", "answer": "IBM", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[249]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nokia 808 PureView::Chevrolet::5135", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[5]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nokia 808 PureView::Dodge::5132", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[361]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Nokia N800::Dodge::5871", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[445]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Porsche 930::Nokia::4771", "answer": "Nokia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[35]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Porsche 997::Nokia::4956", "answer": "Nokia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[447]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Sega Game Gear::Chevrolet::2575", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[493]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Sega Mega-CD::Dodge::3967", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[47]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Suzuki Escudo::Boeing::4746", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[177]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Suzuki GSV-R::Boeing::2387", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[119]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Suzuki GSV-R::Dodge::2388", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[77]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Suzuki GSX-R750::Dodge::2295", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[91]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Suzuki SV 650::Boeing::1720", "answer": "Boeing", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[333]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota 2000GT::Apple::2304", "answer": "Apple", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[277]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota 2000GT::Nokia::2302", "answer": "Nokia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[315]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota Allion::Apple::2662", "answer": "Apple", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[351]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota Avanza::Nokia::3764", "answer": "Nokia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[429]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota Avensis::Apple::1861", "answer": "Apple", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[359]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota Corolla Verso::Apple::3898", "answer": "Apple", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[175]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota SA::Bentley::1195", "answer": "Bentley", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[157]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Toyota Vios::Apple::4843", "answer": "Apple", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[341]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Volvo C70::Mercury::5712", "answer": "Mercury", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[9]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Volvo XC90::Sega::4497", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[41]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Wii U::Chrysler::836", "answer": "Chrysler", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[143]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Yamaha YZR 500::Bentley::1076", "answer": "Bentley", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[165]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::Yamaha YZR 500::Chevrolet::1075", "answer": "Chevrolet", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[215]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPad::Volvo::5166", "answer": "Volvo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[145]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPhone 4s::Cadillac::4327", "answer": "Cadillac", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[171]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPhone 4s::Renault::4326", "answer": "Renault", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[99]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPod Mini::Dodge::4294", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[353]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPod Mini::Renault::4295", "answer": "Renault", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[307]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPod Touch::Cadillac::1485", "answer": "Cadillac", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[247]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPod Touch::Dodge::1484", "answer": "Dodge", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[167]", "meta": {"clamp": -6.0}}
+{"item_id": "P176::iPod Touch::Suzuki::1486", "answer": "Suzuki", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[73]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe After Effects::Sega::250", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[213]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Audition::Atari::1372", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[223]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Captivate::Atari::2312", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[111]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Captivate::Sega::2310", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[49]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Flash Player::Sega::109", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[279]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Illustrator::BBC::116", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[263]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Photoshop Lightroom::Atari::106", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[191]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Photoshop Lightroom::Sega::105", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[319]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Photoshop::BBC::424", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[65]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Premiere Elements::Atari::462", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[31]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Adobe Premiere Elements::Sega::461", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[13]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Airbus A320neo family::Atari::1875", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[71]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Airbus A320neo family::BBC::1876", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[59]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::DirectX::Yahoo::3834", "answer": "Yahoo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[427]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Final Fantasy X::Google::2779", "answer": "Google", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[395]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::GarageBand::Sega::1589", "answer": "Sega", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[345]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Google Maps::Airbus::2510", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[211]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::IBM OfficeVision::Nintendo::6070", "answer": "Nintendo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[357]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::IBM Systems Application Architecture::Yahoo::5289", "answer": "Yahoo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[225]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::IBM Tivoli Storage Manager::Nintendo::5028", "answer": "Nintendo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[489]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::IBM ViaVoice::Nintendo::4283", "answer": "Nintendo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[103]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Mac OS X 10.1::Airbus::895", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[101]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Mac OS X 10.1::Atari::896", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[471]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Microsoft Access::Airbus::1920", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[383]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Microsoft Access::Atari::1922", "answer": "Atari", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[477]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Microsoft Store::BBC::1972", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[469]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Microsoft Surface::Yahoo::434", "answer": "Yahoo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[423]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::New Nintendo 3DS::Yahoo::3048", "answer": "Yahoo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[79]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::OS X Mavericks::Nintendo::1494", "answer": "Nintendo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[221]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Pentium II::Airbus::4415", "answer": "Airbus", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[265]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Pentium III::BBC::3873", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[183]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Pentium III::Honda::3871", "answer": "Honda", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[61]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Pentium M::Honda::4253", "answer": "Honda", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[347]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::WebKit::NATO::999", "answer": "NATO", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[37]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Windows 2000::BBC::1950", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[465]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Windows 2000::Honda::1948", "answer": "Honda", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[299]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Windows 98::Square::1368", "answer": "Square", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[381]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Windows Vista::BBC::2457", "answer": "BBC", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[267]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::Xbox Live::Apple::2440", "answer": "Apple", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[389]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::iOS 5::Square::2629", "answer": "Square", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[137]", "meta": {"clamp": -6.0}}
+{"item_id": "P178::iOS 5::Yahoo::2630", "answer": "Yahoo", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[283]", "meta": {"clamp": -6.0}}
+{"item_id": "P276::Massachusetts Institute of Technology::Slovenia::336", "answer": "Slovenia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[313]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Beppe Grillo::Malaysia::3038", "answer": "Malaysia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[163]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Beppe Grillo::Mongolia::3036", "answer": "Mongolia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[371]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Beppe Grillo::Taiwan::3037", "answer": "Taiwan", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[459]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Grzegorz Lato::Nigeria::1908", "answer": "Nigeria", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[147]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Grzegorz Lato::Tunisia::1906", "answer": "Tunisian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[365]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Magnus Carlsen::Bangladesh::4132", "answer": "Bangladesh", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[75]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Magnus Carlsen::Mali::4130", "answer": "Mali", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[15]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Magnus Carlsen::Vietnam::4131", "answer": "Vietnam", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[463]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Michel Houellebecq::Kenya::5055", "answer": "Kenya", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[367]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Prafulla Chandra Ghosh::Vietnam::4031", "answer": "Vietnamese", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[479]", "meta": {"clamp": -6.0}}
+{"item_id": "P27::Szymon Szymonowic::Mongolia::2768", "answer": "Mongolia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[455]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Catalonia::Asia::931", "answer": "Asia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[291]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::England::Antarctica::4437", "answer": "Antarctica", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[153]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Ireland::Antarctica::1752", "answer": "Antarctica", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[45]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Irish Free State::Americas::4817", "answer": "Americas", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[3]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Kingdom of the Netherlands::Asia::2291", "answer": "Asia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[443]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Mount Cameroon::Americas::1276", "answer": "North", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[271]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Nile::Americas::5255", "answer": "Americas", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[203]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Paris::Africa::6041", "answer": "Africa", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[487]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Prussian Partition::Asia::3364", "answer": "Asia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[261]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Scotland::Africa::1933", "answer": "Africa", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[391]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Scotland::Americas::1931", "answer": "Americas", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[127]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Switzerland::Africa::1013", "answer": "Africa", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[125]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::United Kingdom of Great Britain and Ireland::Africa::724", "answer": "Africa", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[251]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::United Kingdom::Asia::2082", "answer": "Asia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[393]", "meta": {"clamp": -6.0}}
+{"item_id": "P30::Vistula::Asia::3071", "answer": "Asia", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[397]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Catalonia::Hiroshima::823", "answer": "Hiroshima", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[325]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Finland::Scarborough::124", "answer": "Scarborough", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[467]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Germany::Oral::3627", "answer": "Oral", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[237]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Greece::Dudley::1031", "answer": "Dudley", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[121]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Hawaii::Punjab::137", "answer": "Punjab", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[33]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Italy::Cherokee::5400", "answer": "Cherokee", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[231]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Kingdom of the Netherlands::Indiana::914", "answer": "Indiana", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[321]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Rhode Island::Istanbul::1122", "answer": "Istanbul", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[433]", "meta": {"clamp": -6.0}}
+{"item_id": "P36::Texas::Norwich::2247", "answer": "Norwich", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[335]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::Brazil::Somali::305", "answer": "Somali", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[457]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::Brazil::Tibetan::308", "answer": "Tibetan", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[289]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::California::Croatian::1770", "answer": "Croatian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[275]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::Canada::Hawaiian::1952", "answer": "Hawaiian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[451]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::Governor-General of Australia::Egyptian::1089", "answer": "Egyptian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[129]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::Guam::Bulgarian::2699", "answer": "Bulgarian", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[195]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::Roman Empire::Thai::2229", "answer": "Thai", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[233]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::South Carolina::Finnish::1003", "answer": "Finnish", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[95]", "meta": {"clamp": -6.0}}
+{"item_id": "P37::United Kingdom::Filipino::151", "answer": "Filipino", "label": null, "labels": {}, "src": "results/knob_minder_faithful/llama_paper.json#rows[135]", "meta": {"clamp": -6.0}}

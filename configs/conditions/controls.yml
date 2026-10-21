@@ -1,0 +1,20 @@
+- {match: "carry/*/unchanged", items: mask, layout: doc_tight, slot: suffix, batch: 16, max_new: 256,
+   src: scripts/run_mask_control.py}
+- {match: "carry/*/masked", items: mask, passage: passage_masked, layout: doc_tight, slot: suffix, batch: 16,
+   max_new: 256, src: scripts/run_mask_control.py}
+- {match: "carry/*/masked_nosuffix", items: mask, passage: passage_masked, layout: doc_tight, slot: none,
+   batch: 16, max_new: 256, src: scripts/run_mask_control.py}
+- {match: "carry/*/substituted", items: mask, passage: passage_substituted, layout: doc_tight, slot: suffix,
+   batch: 16, max_new: 256, src: scripts/run_mask_control.py}
+- {match: "carry/*/substituted_nosuffix", items: mask, passage: passage_substituted, layout: doc_tight,
+   slot: none, batch: 16, max_new: 256, src: scripts/run_mask_control.py}
+- {match: "carry/*/deleted", regen: false,
+   why: "uses an earlier run's suffixes (suffix_src); 48-token decode, scripts/swap_drop_clean.py"}
+- {match: "swap/*/*", regen: false,
+   why: "uses an earlier run's suffixes (suffix_src); 48-token decode, scripts/swap_drop_clean.py"}
+- {match: "domain/*/true_*", items: domain_true, layout: doc_tight, batch: 8, max_new: 256,
+   slot_from_name: true, src: scripts/run_expB.py}
+- {match: "domain/*/noprior_*", items: domain_noprior, layout: doc_tight, batch: 8, max_new: 192,
+   slot_from_name: true, src: scripts/run_expC.py}
+- {match: "domain/*/new_*", items: domain_new, layout: doc_tight, batch: 8, max_new: 192,
+   slot_from_name: true, src: scripts/run_expD.py}

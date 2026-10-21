@@ -1,0 +1,7 @@
+joint:
+  items: repair
+  targets: {llama: "{ck}.", mistral: "{ck}", gemma: "{ck}.<end_of_turn>"}
+
+control:
+  items: repair
+  targets: {llama: "{ck}.", mistral: "{ck}", gemma: "{ck}.<end_of_turn>"}

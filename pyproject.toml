@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contextgcg"
+version = "1.0.0"
+description = "Optimized suffixes that make a model follow a passage it resists"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.5",
+    "transformers==4.46.3",   # nanogcg 0.2.3 requires transformers 4.x
+    "nanogcg==0.2.3",
+    "accelerate",
+    "huggingface-hub",        # steering: downloads Minder's rank-1 directions
+    "safetensors",            # steering: reads them
+    "sentencepiece",          # Mistral-7B-v0.3's tokenizer
+    "protobuf",
+    "pyyaml",
+]
+
+[tool.setuptools]
+packages = ["contextgcg", "contextgcg.optim", "contextgcg.baselines",
+            "contextgcg.experiments"]

@@ -1,0 +1,47 @@
+Shaping the Document, Not the Model: Optimized Suffixes for Context Following
+
+The CODE in this repository is licensed under the Apache License 2.0 (see LICENSE).
+The DATA under data/ is licensed under CC BY-SA 4.0 (see data/LICENSE), because it derives
+in part from material that carries a share-alike requirement.
+
+-------------------------------------------------------------------------------
+Third-party material this release builds on
+-------------------------------------------------------------------------------
+
+Natural Questions (Kwiatkowski et al., 2019), Google Research.
+  Licensed CC BY-SA 3.0 (https://ai.google.com/research/NaturalQuestions/download).
+  Used for: the retrieved passages and questions in data/items/cubnq/.
+  Share-alike is why the data in this release is CC BY-SA 4.0, which Creative Commons
+  permits as a later version of the same licence.
+
+Fakepedia (Monea et al., 2024), "A Glitch in the Matrix? Locating and Detecting Language
+Model Grounding with Fakepedia", arXiv:2312.02073, and the counterfactual splits used by
+Minder et al. (2025), "Controllable Context Sensitivity and the Knob Behind It"
+(ICLR 2025, arXiv:2411.07404).
+  We could not find a stated licence for this dataset: none appears in the paper, and none
+  in the authors' public repository. We therefore redistribute the derived items with
+  attribution rather than under a licence we cannot verify.
+  Used for: data/items/basefakepedia/ and every set built from it (mask, domain_true,
+  universal_train, persist, repair).
+
+Rank-1 context/prior directions from Minder, Du, Stoehr, Monea, Wendler, West and
+Cotterell (2025), "Controllable Context Sensitivity and the Knob Behind It", ICLR 2025,
+arXiv:2411.07404, published by the authors on Hugging Face (jkminder/CTXPRIOR-*).
+  The three tensors cached under configs/knob/ are read out of those projections; the layer
+  and clamp values in contextgcg/models.py are theirs as well. The Hugging Face repositories
+  state no licence, so the derived vectors are redistributed with attribution.
+  configs/knob/README.md carries the citation.
+  Used for: the activation-steering baseline (rq1_baselines.py --method steering).
+
+-------------------------------------------------------------------------------
+
+Items written by the authors of this paper -- data/items/entailed/,
+data/items/domain_noprior/, data/items/domain_new/ -- are our own work, as are
+data/rubrics/ and data/example_passage.yml, which data/LICENSE also offers under
+Apache License 2.0.
+
+Models are not redistributed. They are downloaded from Hugging Face at run time and each
+carries its own licence, which the user accepts there.
+
+If you hold rights in any material here and would like it removed or relicensed, contact
+the authors and we will do so.

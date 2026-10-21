@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+
+/runs/
+/figures/
+/out/
+/gpu_logs/
+/two_hour_check.log
+.venv/
+.venv-judge/
+*.egg-info/
+/website/
+/wesbite_publish/
+/tools/smoke_experiments.py

@@ -1,0 +1,10 @@
+- {match: "persist/llama/suffix", items: persist, layout: reask, slot: suffix, batch: 16, max_new: 48,
+   src: scripts/run_reask_full.py}
+- {match: "persist/*/suffix", items: persist, layout: reask, slot: suffix, batch: 16, max_new: 256,
+   src: "scripts/run_reask_full.py --max-new 256"}
+- {match: "persist/llama/instruction", regen: false,
+   why: "instruction above the passage (scripts/run_reask_baselines.py); turn 1 regenerated at an unrecorded length"}
+- {match: "persist/*/instruction", items: persist, layout: reask, slot: instruction, batch: 1,
+   max_new: 256, stop_at_eot: true, src: scripts/run_reask_instr_matched.py}
+- {match: "repair/*/*", items: repair, layout: reask, slot: suffix, batch: 1, max_new: 256,
+   regen_turn1: true, judge: reask, src: scripts/run_reask_joint_full.py}

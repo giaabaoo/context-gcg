@@ -1,0 +1,17 @@
+- {match: "nq/*/ours", items: cubnq, layout: doc, slot: suffix, batch: 8, max_new: 256, judge: flip,
+   src: scripts/gen_nq_answers.py}
+- {match: "nq/*/instr_*", items: cubnq, layout: doc, slot: instruction, batch: 8, max_new: 256,
+   judge: flip, src: scripts/run_nq_instr.py}
+- {match: "nq/*/init", items: cubnq, layout: doc, slot: suffix, batch: 8, max_new: 256, judge: flip,
+   src: scripts/run_suffix_controls.py}
+- {match: "nq/*/random", items: cubnq, layout: doc, slot: suffix, batch: 8, max_new: 256, judge: flip,
+   src: scripts/run_suffix_controls.py}
+- {match: "nq/*/minder_prompt", items: cubnq, layout: minder, format_line: false, batch: 1, max_new: 256,
+   verified: false, why: "the paper says these runs added the answer-format line; the surviving script does not"}
+- {match: "nq/*/minder_steer", items: cubnq, layout: minder, format_line: false, steer: true, batch: 1,
+   max_new: 256, verified: false,
+   why: "the paper says these runs added the answer-format line; the surviving script does not"}
+- {match: "nq/*/cad", items: cubnq, layout: cad, chat: true, alpha: 2.0, max_new: 256, judge: flip,
+   src: "scripts/run_cad.py --chat --items"}
+- {match: "nq/*/floor", items: cubnq, layout: doc, slot: none, batch: 8, max_new: 256, judge: flip,
+   src: scripts/nq_screen.py}

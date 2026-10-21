@@ -1,0 +1,6 @@
+universal:
+  steps: 500
+  models:
+    llama:   {target: "{ck}"}
+    mistral: {target: "{ck}."}
+    gemma:   {target: " {ck}.<end_of_turn>"}

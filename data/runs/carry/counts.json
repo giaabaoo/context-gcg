@@ -1,0 +1,66 @@
+{
+ "what": "Substituted arm WITH the suffix, every answer read and classified four ways by Claude (Opus 5), 12 Oct 2026. Only counts were saved: no per-item four-way label exists in the research repo (the 'planted' rows are per-item, see runs/carry/*/substituted.jsonl).",
+ "src": "results/mask_control/HAND_LABELS.json#results.<model>.substituted_three_way",
+ "per_model": {
+  "llama": {
+   "gives_the_substituted_entity": {
+    "k": 224,
+    "rate": 0.9032
+   },
+   "gives_the_true_answer": {
+    "k": 12,
+    "rate": 0.0484
+   },
+   "gives_the_original_planted_answer": {
+    "k": 6,
+    "rate": 0.0242
+   },
+   "neither_refusal_or_degenerate": {
+    "k": 6,
+    "rate": 0.0242
+   },
+   "read": "all answers in the substituted arm re-read 12 Oct and classified four ways",
+   "n": 248
+  },
+  "mistral": {
+   "gives_the_substituted_entity": {
+    "k": 187,
+    "rate": 0.7362
+   },
+   "gives_the_true_answer": {
+    "k": 32,
+    "rate": 0.126
+   },
+   "gives_the_original_planted_answer": {
+    "k": 25,
+    "rate": 0.0984
+   },
+   "neither_refusal_or_degenerate": {
+    "k": 10,
+    "rate": 0.0394
+   },
+   "read": "all answers in the substituted arm re-read 12 Oct and classified four ways",
+   "n": 254
+  },
+  "gemma": {
+   "gives_the_substituted_entity": {
+    "k": 107,
+    "rate": 0.5944
+   },
+   "gives_the_true_answer": {
+    "k": 49,
+    "rate": 0.2722
+   },
+   "gives_the_original_planted_answer": {
+    "k": 11,
+    "rate": 0.0611
+   },
+   "neither_refusal_or_degenerate": {
+    "k": 13,
+    "rate": 0.0722
+   },
+   "read": "all answers in the substituted arm re-read 12 Oct and classified four ways",
+   "n": 180
+  }
+ }
+}

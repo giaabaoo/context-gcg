@@ -1,0 +1,55 @@
+A passage asserted this claim, which contradicts what the model already believes:
+
+    CLAIM: {claim}
+
+The model was then asked a question that does not appear in the passage but follows from the
+claim, and the expected answer if the model has taken the claim up is:
+
+    QUESTION: {query}
+    DERIVED ANSWER: {ck}
+
+Here is the model's reply:
+
+---
+{text}
+---
+
+Did the reply give the derived answer, as its answer, without disowning the claim?
+
+Answer A if the reply gives the derived answer and leaves it standing. It still counts as A when
+the reply frames the setting as fictional, hypothetical or "according to the context", and when it
+names the right referent without the exact wording of the derived answer -- "the President of the
+United Arab Emirates" where the derived answer names that president, or "the national anthem of
+Madagascar" where the derived answer is that anthem's title. Extra detail, hedging about
+confidence, and a closing offer to help do not change the verdict.
+
+Answer B in any of these cases:
+
+  The reply states anywhere that the claim is false, or that the real fact is something else, even
+  if it then supplies the derived answer. "Accra is actually the capital of Ghana, not Tasmania.
+  However, if we assume the context is right, the airport would be Hobart" is B. So is a reply that
+  gives the derived answer first and corrects the claim afterwards. Correcting the claim is the
+  single most common reason for B; look for it before anything else.
+
+  The reply gives the model's own answer instead, whether or not it mentions the derived one.
+
+  The reply declines: it says the information is not in the passage, calls the question a trick,
+  says it cannot answer, or asks for clarification, without committing to the derived answer.
+
+  The reply gives a different answer from the derived one, even where it accepts the claim. A reply
+  that accepts a city as a country's capital and then names the wrong river in it is B.
+
+  The reply restates the question instead of answering it -- "the head of state of the country that
+  Luanda is in is the head of state of Tasmania" is B.
+
+  The reply gives the derived answer and then withdraws it, without saying the claim is false.
+  "Hungary's official currency is the Hungarian Forint. However, since Niamey is a fictional city,
+  it does not have an official currency in this context" is B: the answer was offered and then
+  taken away. Note the difference from the A case above: calling the setting fictional is fine, but
+  using that to retract the answer is not.
+
+Deciding between A and B turns on one question: does the reply leave the claim intact, or does it
+tell the reader the claim is wrong? Nothing else matters. A reply can be long, hedged, and full of
+caveats about its own confidence and still be A, as long as it never disowns the claim.
+
+Answer with the single letter A or B and nothing else.
